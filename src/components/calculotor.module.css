@@ -1,0 +1,64 @@
+.prim {
+  background-color: aliceblue;
+  color: brown;
+  border: 0.02rem red solid;
+  width: 10rem;
+  margin: auto;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.prim:focus {
+  background-color: aquamarine;
+}
+.inp {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+.container {
+  background-color: blueviolet;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  width: 20rem;
+  max-width: 30rem;
+  margin: auto;
+}
+.res {
+  color: burlywood;
+  font-style: italic;
+}
+.addsub {
+  display: flex;
+  justify-content: space-around;
+  background-color: violet;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+.but{
+    height: 2rem;
+    width:2rem;
+    background-color: brown;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 1000;
+}
+.but:hover{
+    transform: scale(2);
+    transition: 1s;
+    background-image: radial-gradient(red,yellow);
+    border-radius: 50%;
+}
+.clear{
+    background-color: burlywood;
+    height: 2rem;
+    border-radius: .5rem;
+}
+.clear:hover{
+  transform: rotate(1080deg) scale(2);
+  transition: 1s;
+}
